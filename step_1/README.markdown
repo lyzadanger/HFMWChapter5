@@ -11,7 +11,7 @@ Installation
 1. You _must_ already have the **WURFL PHP API [installed and running (instructions soon)] [wurfl-install]**. Several of the following steps reference files and stuff that are set up in that installation process.
 1. You should download the latest WURFL XML (Repository) at [the sourceforge project page](http://wurfl.sourceforge.net/)
 if you haven't already (or recently).
-1. You should have a working *WURFL resources* directory. Part of the install process involves getting a sample page to work at (in the WURFL source under `examples/demo`, which uses `examples/resources` as its resources directory). The resources directory you use for this step should contain:
+1. You should have a working *WURFL resources* directory. You might consider using the `examples/resources` directory that comes as part of the WURFL PHP API. The resources directory you use for this step should contain:
   1. `wurfl.xml` - Main WURFL data file
   1. `wurfl-config.xml` - Config file
   1. `web_browsers_patch.xml` - Optional WURFL patch for desktop browsers
