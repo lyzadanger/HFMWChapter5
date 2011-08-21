@@ -19,12 +19,5 @@ if (!file_exists($wurflConfigFile)) {
   print '<h2>Oh, dear</h2> <p>WURFL is looking for the "wurfl-config.xml" file here:<br /><code>' . $wurflConfigFile
     . '"</code><br />Sadly, it is not finding it. Check the path set for "RESOURCES_DIR" in config.php</p>';
 }
-
 require_once($app_path);
-// Create WURFL Configuration from an XML config file
-$wurflConfig = new WURFL_Configuration_XmlConfig($wurflConfigFile);
-// Create a WURFL Manager Factory from the WURFL Configuration
-$wurflManagerFactory = new WURFL_WURFLManagerFactory($wurflConfig);
-// Create a WURFL Manager ($wurflManager is a WURFL_WURFLManager object)
-$wurflManager = $wurflManagerFactory->create();
 ?>
