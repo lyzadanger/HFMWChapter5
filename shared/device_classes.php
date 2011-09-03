@@ -40,9 +40,7 @@ function device_match($capability, $comparison, $value) {
 }
 
 $device_class = NULL;
-/**
- * Device class matching, step 1
- */
+
 if (device_match('is_wireless_device', '===', 'false')) {
   $device_class = 'desktop';
 }
@@ -62,7 +60,9 @@ else if (device_match('is_wireless_device', '===', 'true') &&
 {
   $device_class = 'higher_mobile';
 }
-else if (device_match('is_wireless_device', '===', 'true') &&
-        device_match('resolution_width', '<', '320')) {
+else if (device_match('is_wireless_device', '===', 'true')) {
   $device_class = 'simpler_mobile';       
+}
+else {
+  $device_class = 'desktop';
 }

@@ -4,7 +4,7 @@
   <title>WURFL Device Inspection</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-  <link rel="stylesheet" type="text/stylesheet" href="../assets/styles.css" />
+  <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 <body>
 <h1>WURFL Tester!</h1>
@@ -32,7 +32,7 @@
           $rowcount++;
       ?>
         <dt class="<?php print $classes; ?>"><?php print $cap_name; ?></dt>
-        <dd class="<?php print $classes; ?>"><?php print ($cap) ? $cap : '[none]'; ?></dd>
+        <dd class="<?php print $classes; ?>"><?php print ($cap) ? $cap : '[no value]'; ?></dd>
       <?php endforeach; ?>
       </dl>
   <?php endforeach; ?>
