@@ -1,4 +1,4 @@
-<?php require_once('config.php'); ?>
+<?php require_once('device.php'); ?>
 <!DOCTYPE html>
 <html>
 <head>
