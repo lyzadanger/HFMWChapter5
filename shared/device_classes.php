@@ -1,5 +1,5 @@
 <?php
-
+require_once('device.php');
 /**
  * Does this device's value for the capability $capability match the $value?
  * Use the $comparison operator or default to '===' for comparing the 
