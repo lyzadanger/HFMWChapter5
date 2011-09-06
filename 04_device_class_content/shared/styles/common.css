@@ -7,9 +7,18 @@ html {
 p {
   margin: .25em;
 }
-
+p.attribution {
+  float: right;
+  font-size: .75em;
+  color: #aaa;
+  font-style: italic;
+}
 a {
   text-decoration: none;
+}
+
+a:visited {
+  color: #555500;
 }
 body {
   font-size: 100%;
@@ -64,6 +73,7 @@ img, object {
   background-color: #3a4d5e;
   color: #fff;
 }
+
 
 
 .row {

@@ -14,8 +14,9 @@ body {
   -webkit-border-top-left-radius: 20px;
   -moz-border-radius-topleft: 20px;
   -moz-border-radius-topright: 20px;
-  background-image: -webkit-linear-gradient(top, rgba(255,255,255,.5), rgba(255,255,255,.3) 5px, rgba(20,30,43,1) 20px);
-  background-image: -moz-linear-gradient(top, rgba(255,255,255,.5), rgba(255,255,255,.3) 5px, rgba(20,30,43,1) 20px);
+  background: url('book_header.jpg') 0 0, url('book_header_2.jpg') 100% 0;
+  background-repeat: no-repeat;
+  background-color: #000;
 }
 #header h1 {
   text-align:center;

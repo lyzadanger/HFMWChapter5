@@ -54,7 +54,7 @@
 
 
 <div id="footer">
-  <p>Current device class: <?php print $device_class; ?></p>
+  <p class="attribution">Book photograph by <a href="http://www.flickr.com/photos/shutterhacks/">Shutterhacks</a></p>
 </div>
 
 
