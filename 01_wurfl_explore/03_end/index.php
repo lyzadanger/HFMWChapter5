@@ -20,6 +20,9 @@
   <h2>Device Data</h2>
   <p>Device data for <?php print $user_agent; ?></p>
   <p><strong>WURFL Device ID: <?php print $device->id; ?></strong></p>
+  <p><strong>Is specific: <?php print $device->isSpecific(); ?></strong></p>
+  <p><strong>Fall back: <?php print $device->fallBack; ?></strong></p>
+  <p><strong>Actual Device Root: <?php print $device->actualDeviceRoot; ?></strong></p>
   <?php foreach($grouped_capabilities as $group_name => $my_caps): ?>
     <h3 class="group"><?php print $group_name; ?></h3>
     <dl>
