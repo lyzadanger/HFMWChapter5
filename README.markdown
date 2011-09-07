@@ -6,3 +6,6 @@
 Chapter 5
 ---------
 ### Devices: capabilities, databases, and classes
+
+#### Installation
+Run the bash script build.sh to generate the chapter directory structure as referenced in the book examples. This 'chapter5' directory structure will have the correct starting points for the exercises, without all of the intermediate steps (and final answers) found in the full repository.
