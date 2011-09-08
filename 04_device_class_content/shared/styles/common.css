@@ -7,8 +7,8 @@ html {
 p {
   margin: .25em;
 }
+
 p.attribution {
-  float: right;
   font-size: .75em;
   color: #aaa;
   font-style: italic;
