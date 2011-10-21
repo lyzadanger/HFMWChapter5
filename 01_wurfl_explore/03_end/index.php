@@ -1,3 +1,4 @@
+<?php require_once('device.php'); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,7 +9,6 @@
 </head>
 <body>
 <h1>WURFL Tester!</h1>
-<?php require_once('device.php'); ?>
 <div id="testform">
   <form method="post" action="<?php print $_SERVER['PHP_SELF']; ?>" id="useragentform">
     <p>Test this user agent string:</p>

@@ -1,3 +1,4 @@
+<?php include('device.php'); ?>
 <!DOCTYPE html>
 <html>
 <head>

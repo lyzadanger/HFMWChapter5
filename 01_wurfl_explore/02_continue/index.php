@@ -1,3 +1,4 @@
+<?php require_once('device.php'); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,7 +9,6 @@
 </head>
 <body>
 <h1>WURFL Tester!</h1>
-<?php require_once('device.php'); ?>
 <div id="testform">
 
 </div>
