@@ -19,16 +19,9 @@
   <?php foreach($grouped_capabilities as $group_name => $my_caps): ?>
     <h3 class="group"><?php print $group_name; ?></h3>
     <dl>
-      <?php
-        $rowcount = 0;
-        foreach($my_caps as $cap_name => $cap): 
-          $evenodd = ($rowcount % 2 == 0) ? 'even' : 'odd';
-          $isnone  = ($cap) ? '' : 'none';
-          $classes = "$evenodd $isnone";
-          $rowcount++;
-      ?>
-        <dt class="<?php print $classes; ?>"><?php print $cap_name; ?></dt>
-        <dd class="<?php print $classes; ?>"><?php print ($cap) ? $cap : '[no value]'; ?></dd>
+      <?php foreach($my_caps as $cap_name => $cap): ?>
+        <dt><?php print $cap_name; ?></dt>
+        <dd><?php print ($cap) ? $cap : '[no value]'; ?></dd>
       <?php endforeach; ?>
       </dl>
   <?php endforeach; ?>
