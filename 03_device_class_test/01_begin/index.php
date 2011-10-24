@@ -17,12 +17,12 @@
     <input type="submit" name="submit" value="Test User Agent" id="submit" />
   </form>
 </div>
-<?php if(isset($device_class)): ?>
+
 <div id="devicedata">
   <h2>Device Class Data</h2>
   <p><strong>Device ID</strong>: '<?php print $device->id; ?>'</p>
-  <p><strong>Device Class:</strong> '<?php print $device_class; ?>'</p>
+  <p><strong>Device Class:</strong> <?php if(isset($device_class)): ?>'<?php print $device_class; ?>'<?php endif; ?></p>
+
 </div>
-<?php endif; ?>
 </body>
 </html>
