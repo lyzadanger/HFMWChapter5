@@ -1,4 +1,4 @@
-<?php include('device.php'); ?>
+<?php require_once('device.php'); ?>
 <!DOCTYPE html>
 <html>
 <head>
