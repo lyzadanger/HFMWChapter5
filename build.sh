@@ -11,4 +11,3 @@ cp ../04_device_class_content/03_end/index.php device_classes/adapt_content/inde
 cp ../shared/useful_user_agents.txt .
 find . -name config.php | xargs rm
 cd ..
-zip -qr chapter5.zip chapter5
